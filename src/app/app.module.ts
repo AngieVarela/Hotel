@@ -9,7 +9,9 @@ import { HomeComponent } from './home/home.component';
 import { FormareservaComponent } from './formareserva/formareserva.component';
 import { HabitacionesComponent } from './habitaciones/habitaciones.component';
 import { DescripcionComponent } from './descripcion/descripcion.component';
-import {HttpClient, HttpClientModule } from '@angular/common/http'
+import {HttpClient, HttpClientModule } from '@angular/common/http';
+import { ServiciosComponent } from './servicios/servicios.component';
+import { ServicesComponent } from './services/services.component'
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import {HttpClient, HttpClientModule } from '@angular/common/http'
     HomeComponent,
     FormareservaComponent,
     HabitacionesComponent,
-    DescripcionComponent
+    DescripcionComponent,
+    ServiciosComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,

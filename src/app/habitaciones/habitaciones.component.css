@@ -5,3 +5,7 @@ h4 {
      font-family: 'ormont light font';
      font-weight: bold;
 }
+
+h5, p{
+     text-align: center;
+}
